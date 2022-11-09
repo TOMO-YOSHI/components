@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default function Header() {
+interface Props {
+  text: string
+}
+
+export default function Header({ text }: Props) {
   return (
-    <div>Header</div>
+    <div>{text}</div>
   )
 }
