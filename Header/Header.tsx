@@ -6,6 +6,6 @@ interface Props {
 
 export default function Header({ text }: Props) {
   return (
-    <div>{text}!!!</div>
+    <div>{text}</div>
   )
 }
